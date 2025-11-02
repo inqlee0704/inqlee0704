@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>In Kyu Lee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- basic, clean typographic defaults -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        :root {
+            --maxw: 720px;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #111;
+            margin: 0;
+        }
+
+        .wrap {
+            max-width: var(--maxw);
+            margin: 0 auto;
+            padding: 2rem 1rem 4rem;
+        }
+
+        h1 {
+            margin: 0 0 .25rem 0;
+            font-size: 1.9rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        header {
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .links {
+            font-size: .95rem;
+            color: #444;
+        }
+
+        .dot {
+            margin: 0 .5ch;
+            color: #aaa;
+        }
+
+        ul {
+            padding-left: 1.1rem;
+        }
+
+        footer {
+            margin-top: 2.5rem;
+            color: #666;
+            font-size: .85rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>In Kyu Lee</h1>
+            <p>PhD student, Medical Imaging &amp; AI, UC San Diego</p>
+            <div class="links">
+                <a href="mailto:inqlee0704@gmail.com">inqlee0704@gmail.com</a>
+                <span class="dot">·</span>
+                <a href="assets/InKyuLee_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+                <span class="dot">·</span>
+                <a href="YOUR_SCHOLAR_URL" target="_blank" rel="noreferrer">Google Scholar</a>
+                <span class="dot">·</span>
+                <a href="YOUR_GITHUB_URL" target="_blank" rel="noreferrer">GitHub</a>
+                <span class="dot">·</span>
+                <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>About</h2>
+                <p>
+                    I study physics-based medical imaging and AI. My recent work spans synchrotron microCT analysis of
+                    bone marrow in
+                    chronic lymphocytic leukemia, coronary angiography segmentation and detection, and quantitative CT
+                    pipelines across
+                    registration, deep learning segmentation, and statistical modeling.
+                </p>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>University of California, San Diego</strong><br>
+                        Ph.D., Mechanical Engineering — Sept 2024 – Present (Advisor: Claire Acevedo)</li>
+                    <li><strong>University of Kansas</strong><br>
+                        M.S., Bioengineering (Honors) — Jul 2022 (GPA 3.86/4.0; Advisor: Jiwoong Choi)</li>
+                    <li><strong>University of Minnesota – Twin Cities</strong><br>
+                        B.S., Aerospace Engineering &amp; Mechanics; Minor in Computer Science — May 2020 (GPA 3.70/4.0;
+                        Advisor: Hyun Soo Park)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Graduate Research Assistant, UCSD — F² Lab</strong> <em>(Aug 2024 – Present)</em><br>
+                        Segmentation and quantification pipeline for microCT; marrow microenvironments in CLL using
+                        synchrotron microCT.</li>
+                    <li><strong>Research Scientist, Medipixel</strong> <em>(Aug 2022 – Aug 2024)</em><br>
+                        Local refinement for coronary lesion &amp; bifurcation; led MICCAI ARCADE tasks; video-based
+                        complication detection; automated CFD (PyFluent).</li>
+                    <li><strong>Graduate Research Assistant, KU Medical Center</strong> <em>(Aug 2020 – Jul
+                            2022)</em><br>
+                        Quantitative CT pipeline: deep-learning segmentation, registration, ML analytics.</li>
+                    <li><strong>Research Assistant, Seoul National University Hospital</strong> <em>(Summers 2019 &amp;
+                            2020)</em><br>
+                        Analyzed environmental exposure in lung-disease cohorts (PCA, k-means); associated QCT variables
+                        with particulate-matter exposure.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Publications (selected)</h2>
+                <ul>
+                    <li><strong>Disruption of marrow microenvironments in chronic lymphocytic leukemia by
+                            high-resolution synchrotron micro-CT</strong><br>
+                        Lee IK, Obata Y, Pmicter A, Williams J, Kikani B, Jensen C, Sborov D, Stephens D, Acevedo C —
+                        bioRxiv, 2025</li>
+                    <li><strong>Diffusion-Based User-Guided Data Augmentation for Coronary Stenosis
+                            Detection</strong><br>
+                        Seo S, Lee IK, Kim H-W, Min J, Jung C-H — MICCAI 2025</li>
+                    <li><strong>Gray’s Anatomy for Segmenting Anything Model</strong><br>
+                        Lee IK, Ku J, Choi Y — CVPR Workshop, 2024</li>
+                    <li><strong>SASS: Semi-Supervised Approach for Stenosis Segmentation</strong> — MICCAI ARCADE 2023
+                        (<a href="https://arxiv.org/abs/2311.10281" target="_blank" rel="noreferrer">arXiv</a>)</li>
+                    <li><strong>MPSeg: Multi-Phase Strategy for Coronary Artery Segmentation</strong> — MICCAI ARCADE
+                        2023
+                        (<a href="https://arxiv.org/abs/2311.10306" target="_blank" rel="noreferrer">arXiv</a>)</li>
+                    <li><strong>HUMBI: A Large Multiview Dataset of Human Body Expressions</strong> — CVPR 2020</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Talks</h2>
+                <ul>
+                    <li>Disruption of marrow microenvironments in CLL — SES, Atlanta, Oct 12–15, 2025 (oral)</li>
+                    <li>Quantitative CT and CFD in Asthma — ICAN, San Francisco, May 12–13, 2022 (oral)</li>
+                    <li>Toward extended quantitative CT with deep transfer learning — ATS, May 14–19, 2021 (poster)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Honors &amp; Awards</h2>
+                <ul>
+                    <li>ASH Abstract Achievement Award (2025)</li>
+                    <li>MICCAI 2023 ARCADE — 1st (Stenosis) &amp; 2nd (Artery)</li>
+                    <li>Outstanding Student Researcher Award (KU, 2023)</li>
+                    <li>Burn Diagnosis AI Challenge — 1st (2022)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Patents &amp; Skills</h2>
+                <p>Patents: matching medical images by respiration phase; labeling medical images; FFR data generation.
+                </p>
+                <p>Programming: Python, MATLAB, Fortran. Languages: English, Chinese, Korean.</p>
+            </section>
+
+            <footer>© <span id="year"></span> In Kyu Lee</footer>
+        </main>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
